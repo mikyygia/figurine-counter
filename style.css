@@ -1,0 +1,47 @@
+body {
+    font-family: "Poppins";
+    background-image: url(./figurine.jpg);
+    backdrop-filter: blur(3px);
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 80vw;
+    height: 90vh;
+
+    text-align: center;
+    font-size: 1.5em;
+
+    /* background-color: lightblue; */
+}
+
+#main-text {
+    color: burlywood;
+    text-shadow: 5px 1px 5px red;
+    margin-bottom: 0;
+}
+
+#count {
+    color: seashell;
+    font-size: 4em;
+}
+
+#save-el {
+    color: white;
+}
+
+button {
+    font-size: 1em;
+    width: 300px;
+    height: 65px;
+    border: solid 5px salmon;
+    background-color: lightsalmon;
+    border-radius: 20px;
+    margin: 5px 0;
+    color: blanchedalmond;
+}
